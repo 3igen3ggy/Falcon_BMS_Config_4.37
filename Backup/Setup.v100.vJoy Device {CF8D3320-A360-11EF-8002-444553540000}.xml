@@ -956,7 +956,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimWheelBrakes</Callback>
+          <Callback>SimAPOverride</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1436,7 +1436,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimAPOverride</Callback>
+          <Callback>SimWheelBrakes</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -4369,7 +4369,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimWheelBrakes</Callback>
+            <Callback>SimAPOverride</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4849,7 +4849,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimAPOverride</Callback>
+            <Callback>SimWheelBrakes</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
