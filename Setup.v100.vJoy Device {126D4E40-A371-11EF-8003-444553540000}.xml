@@ -404,14 +404,14 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimCursorEnable</Callback>
+          <Callback>SimHotasPinkyShift</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimHotasPinkyShift</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -524,14 +524,14 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimHotasPinkyShift</Callback>
+          <Callback>SimWheelBrakes</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimHotasPinkyShift</Callback>
+          <Callback>SimDoNothing</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>-1</SoundID>
+          <SoundID>0</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -3817,14 +3817,14 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimCursorEnable</Callback>
+            <Callback>SimHotasPinkyShift</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimHotasPinkyShift</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -3937,14 +3937,14 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimHotasPinkyShift</Callback>
+            <Callback>SimWheelBrakes</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimHotasPinkyShift</Callback>
+            <Callback>SimDoNothing</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>-1</SoundID>
+            <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
