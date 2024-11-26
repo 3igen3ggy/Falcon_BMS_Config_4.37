@@ -516,7 +516,9 @@
                 <button description="" id="2">
                     <container type="basic">
                         <action-set>
-                            <temporary-mode-switch name="Mode A"/>
+                            <temporary-mode-switch name="Mode A">
+                                <activation-condition rule="all"/>
+                            </temporary-mode-switch>
                         </action-set>
                     </container>
                 </button>
@@ -665,7 +667,9 @@
                 </button>
                 <button description="" id="6">
                     <container type="basic">
-                        <action-set/>
+                        <action-set>
+                            <remap button="37" vjoy="2"/>
+                        </action-set>
                     </container>
                 </button>
                 <button description="" id="7">
@@ -842,9 +846,7 @@
             </mode>
         </device>
         <device device-guid="{6F1D2B61-D5A0-11CF-BFC7-444553540000}" label="" name="keyboard" type="keyboard">
-            <mode name="Default"/>
-            <mode inherit="Default" name="Mode A"/>
-            <mode inherit="Default" name="Mode B">
+            <mode name="Default">
                 <key description="" extended="False" id="41">
                     <container type="basic">
                         <action-set>
@@ -852,6 +854,10 @@
                         </action-set>
                     </container>
                 </key>
+            </mode>
+            <mode inherit="Default" name="Mode A"/>
+            <mode inherit="Default" name="Mode B">
+                <key description="" extended="False" id="41"/>
             </mode>
             <mode inherit="Default" name="Mode C"/>
         </device>
