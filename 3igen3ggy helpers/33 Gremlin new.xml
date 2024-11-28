@@ -161,16 +161,8 @@
                 </hat>
             </mode>
             <mode inherit="Default" name="Mode A">
-                <axis description="" id="1">
-                    <container type="basic">
-                        <action-set/>
-                    </container>
-                </axis>
-                <axis description="" id="2">
-                    <container type="basic">
-                        <action-set/>
-                    </container>
-                </axis>
+                <axis description="" id="1"/>
+                <axis description="" id="2"/>
                 <axis description="" id="6">
                     <container type="basic">
                         <action-set/>
