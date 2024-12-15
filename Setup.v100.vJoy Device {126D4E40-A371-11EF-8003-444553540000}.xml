@@ -28,8 +28,8 @@
     </AxAssgn>
     <AxAssgn>
       <AxisName>Radar_Antenna_Elevation</AxisName>
-      <AssgnDate>2024-11-16T20:31:00.5826547+01:00</AssgnDate>
-      <Invert>false</Invert>
+      <AssgnDate>2024-12-05T23:05:36.0318241+01:00</AssgnDate>
+      <Invert>true</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
     </AxAssgn>
