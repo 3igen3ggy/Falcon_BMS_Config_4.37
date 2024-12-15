@@ -668,7 +668,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimHUDRadar</Callback>
+          <Callback>SimHUDVelocity</Callback>
           <Invoke>Default</Invoke>
           <SoundID>115</SoundID>
         </Assgn>
@@ -692,9 +692,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimHUDVelocity</Callback>
+          <Callback>SimCursorEnable</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>115</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1148,9 +1148,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimHUDRadar</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>115</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1172,9 +1172,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimRadarCursorZero</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1436,9 +1436,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimWheelBrakes</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -4081,7 +4081,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimHUDRadar</Callback>
+            <Callback>SimHUDVelocity</Callback>
             <Invoke>Default</Invoke>
             <SoundID>115</SoundID>
           </Assgn>
@@ -4105,9 +4105,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimHUDVelocity</Callback>
+            <Callback>SimCursorEnable</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>115</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4561,9 +4561,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimHUDRadar</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>115</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4585,9 +4585,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimRadarCursorZero</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4849,9 +4849,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimWheelBrakes</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
