@@ -524,7 +524,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>ToggleNVGMode</Callback>
+          <Callback>SimRadarFreeze</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -836,7 +836,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRadarFreeze</Callback>
+          <Callback>ToggleNVGMode</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1244,7 +1244,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRadarSnowplow</Callback>
+          <Callback>SimVisorToggle</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1268,7 +1268,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimVisorToggle</Callback>
+          <Callback>SimRadarSnowplow</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -3937,7 +3937,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>ToggleNVGMode</Callback>
+            <Callback>SimRadarFreeze</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4249,7 +4249,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRadarFreeze</Callback>
+            <Callback>ToggleNVGMode</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4657,7 +4657,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRadarSnowplow</Callback>
+            <Callback>SimVisorToggle</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4681,7 +4681,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimVisorToggle</Callback>
+            <Callback>SimRadarSnowplow</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
