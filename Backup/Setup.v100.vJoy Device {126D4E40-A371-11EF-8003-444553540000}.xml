@@ -524,7 +524,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRadarFreeze</Callback>
+          <Callback>SimCursorEnable</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1268,7 +1268,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRadarSnowplow</Callback>
+          <Callback>SimRadarCursorZero</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -3937,7 +3937,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRadarFreeze</Callback>
+            <Callback>SimCursorEnable</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4681,7 +4681,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRadarSnowplow</Callback>
+            <Callback>SimRadarCursorZero</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
