@@ -1268,7 +1268,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDMSLeft</Callback>
+          <Callback>SimCMSLeft</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1292,7 +1292,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDMSDown</Callback>
+          <Callback>SimCMSDown</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1316,7 +1316,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDMSRight</Callback>
+          <Callback>SimCMSRight</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1340,7 +1340,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDMSUp</Callback>
+          <Callback>SimCMSUp</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1748,7 +1748,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimCMSLeft</Callback>
+          <Callback>SimDMSLeft</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1772,7 +1772,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimCMSDown</Callback>
+          <Callback>SimDMSDown</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1796,7 +1796,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimCMSRight</Callback>
+          <Callback>SimDMSRight</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1820,7 +1820,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimCMSUp</Callback>
+          <Callback>SimDMSUp</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -4681,7 +4681,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDMSLeft</Callback>
+            <Callback>SimCMSLeft</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4705,7 +4705,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDMSDown</Callback>
+            <Callback>SimCMSDown</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4729,7 +4729,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDMSRight</Callback>
+            <Callback>SimCMSRight</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4753,7 +4753,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDMSUp</Callback>
+            <Callback>SimCMSUp</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -5161,7 +5161,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimCMSLeft</Callback>
+            <Callback>SimDMSLeft</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -5185,7 +5185,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimCMSDown</Callback>
+            <Callback>SimDMSDown</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -5209,7 +5209,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimCMSRight</Callback>
+            <Callback>SimDMSRight</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -5233,7 +5233,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimCMSUp</Callback>
+            <Callback>SimDMSUp</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
