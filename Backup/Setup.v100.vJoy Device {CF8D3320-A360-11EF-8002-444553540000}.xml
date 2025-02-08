@@ -428,9 +428,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimPickle</Callback>
+          <Callback>SimSlapSwitch</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>-1</SoundID>
+          <SoundID>314</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -452,9 +452,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimSlapSwitch</Callback>
+          <Callback>SimPickle</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>314</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -3841,9 +3841,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimPickle</Callback>
+            <Callback>SimSlapSwitch</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>-1</SoundID>
+            <SoundID>314</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -3865,9 +3865,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimSlapSwitch</Callback>
+            <Callback>SimPickle</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>314</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
