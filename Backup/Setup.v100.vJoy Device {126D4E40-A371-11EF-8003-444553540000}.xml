@@ -908,7 +908,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>OTWToggleCustom3dPitView</Callback>
+          <Callback>OTWNextCustom3dPitView</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1124,9 +1124,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>OTWNextCustom3dPitView</Callback>
+          <Callback>SimDoNothing</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>-1</SoundID>
+          <SoundID>0</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -4321,7 +4321,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWToggleCustom3dPitView</Callback>
+            <Callback>OTWNextCustom3dPitView</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4537,9 +4537,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWNextCustom3dPitView</Callback>
+            <Callback>SimDoNothing</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>-1</SoundID>
+            <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
