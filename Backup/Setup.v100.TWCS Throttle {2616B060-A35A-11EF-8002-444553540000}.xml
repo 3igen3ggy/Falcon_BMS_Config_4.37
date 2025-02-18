@@ -127,7 +127,7 @@
         </DirAssgn>
         <DirAssgn>
           <Callback>
-            <string>OTWViewLeft</string>
+            <string>SimCommsSwitchLeft</string>
             <string>SimDoNothing</string>
           </Callback>
           <SoundID>
@@ -3540,7 +3540,7 @@
           </DirAssgn>
           <DirAssgn>
             <Callback>
-              <string>OTWViewLeft</string>
+              <string>SimCommsSwitchLeft</string>
               <string>SimDoNothing</string>
             </Callback>
             <SoundID>
