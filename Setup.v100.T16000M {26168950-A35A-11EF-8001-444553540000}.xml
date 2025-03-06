@@ -6914,11 +6914,11 @@
           </DirAssgn>
           <DirAssgn>
             <Callback>
-              <string>SimDoNothing</string>
+              <string>SimF15CastleRight</string>
               <string>SimDoNothing</string>
             </Callback>
             <SoundID>
-              <int>0</int>
+              <int>-1</int>
               <int>0</int>
             </SoundID>
           </DirAssgn>
@@ -6934,11 +6934,11 @@
           </DirAssgn>
           <DirAssgn>
             <Callback>
-              <string>SimDoNothing</string>
+              <string>SimF15CastleDown</string>
               <string>SimDoNothing</string>
             </Callback>
             <SoundID>
-              <int>0</int>
+              <int>-1</int>
               <int>0</int>
             </SoundID>
           </DirAssgn>
@@ -6954,11 +6954,11 @@
           </DirAssgn>
           <DirAssgn>
             <Callback>
-              <string>SimDoNothing</string>
+              <string>SimF15CastleLeft</string>
               <string>SimDoNothing</string>
             </Callback>
             <SoundID>
-              <int>0</int>
+              <int>-1</int>
               <int>0</int>
             </SoundID>
           </DirAssgn>
