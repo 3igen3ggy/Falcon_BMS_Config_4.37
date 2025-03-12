@@ -524,7 +524,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimCursorEnable</Callback>
+          <Callback>SimRadarCursorZero</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1268,7 +1268,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRadarCursorZero</Callback>
+          <Callback>SimCursorEnable</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -3937,7 +3937,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimCursorEnable</Callback>
+            <Callback>SimRadarCursorZero</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4681,7 +4681,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRadarCursorZero</Callback>
+            <Callback>SimCursorEnable</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -7303,9 +7303,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimF15SpeedBrakeAft</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -7327,9 +7327,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimF15SpeedBrakeFwd</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
