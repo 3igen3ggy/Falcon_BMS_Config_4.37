@@ -668,7 +668,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimSelectSRMOverride</Callback>
+          <Callback>SimSelectMRMOverride</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -716,7 +716,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimSelectMRMOverride</Callback>
+          <Callback>SimSelectSRMOverride</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -4081,7 +4081,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimSelectSRMOverride</Callback>
+            <Callback>SimSelectMRMOverride</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4129,7 +4129,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimSelectMRMOverride</Callback>
+            <Callback>SimSelectSRMOverride</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
