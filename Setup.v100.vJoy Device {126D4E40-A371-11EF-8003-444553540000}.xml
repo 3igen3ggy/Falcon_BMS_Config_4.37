@@ -14,8 +14,8 @@
     </AxAssgn>
     <AxAssgn>
       <AxisName>Cursor_Y</AxisName>
-      <AssgnDate>2024-11-05T21:58:05.6242527+01:00</AssgnDate>
-      <Invert>true</Invert>
+      <AssgnDate>2025-04-28T16:22:55.5896086+02:00</AssgnDate>
+      <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>Small</Deadzone>
     </AxAssgn>

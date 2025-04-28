@@ -21,7 +21,7 @@
     </AxAssgn>
     <AxAssgn>
       <AxisName>Yaw</AxisName>
-      <AssgnDate>2024-11-05T21:48:03.0341792+01:00</AssgnDate>
+      <AssgnDate>2025-04-28T16:25:15.6967756+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
@@ -49,7 +49,7 @@
     </AxAssgn>
     <AxAssgn>
       <AxisName>Range_Knob</AxisName>
-      <AssgnDate>2024-11-24T17:27:38.1036117+01:00</AssgnDate>
+      <AssgnDate>2025-04-28T16:23:09.4783957+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
