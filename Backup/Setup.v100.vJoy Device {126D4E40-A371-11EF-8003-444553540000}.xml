@@ -2,47 +2,47 @@
 <JoyAssgn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <detentPosition>
     <AB>50220</AB>
-    <IDLE>1</IDLE>
+    <IDLE>3</IDLE>
   </detentPosition>
   <axis>
     <AxAssgn>
       <AxisName>Cursor_X</AxisName>
-      <AssgnDate>2025-05-04T12:00:53.5331858+02:00</AssgnDate>
+      <AssgnDate>2025-05-05T18:17:32.9696604+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
-      <Deadzone>Small</Deadzone>
+      <Deadzone>Large</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Cursor_Y</AxisName>
-      <AssgnDate>2025-05-04T18:28:09.6053474+02:00</AssgnDate>
+      <AssgnDate>2025-05-05T18:17:35.6889521+02:00</AssgnDate>
       <Invert>true</Invert>
       <Saturation>None</Saturation>
-      <Deadzone>Small</Deadzone>
+      <Deadzone>Large</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Throttle</AxisName>
-      <AssgnDate>2025-05-04T11:23:57.622275+02:00</AssgnDate>
+      <AssgnDate>2025-05-05T17:20:03.5181185+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Range_Knob</AxisName>
-      <AssgnDate>2025-05-04T11:26:30.8002778+02:00</AssgnDate>
+      <AssgnDate>2025-05-05T17:20:16.2273905+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Radar_Antenna_Elevation</AxisName>
-      <AssgnDate>2025-05-04T11:25:19.6156877+02:00</AssgnDate>
+      <AssgnDate>2025-05-05T17:20:08.4028402+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
-      <AxisName />
-      <AssgnDate>1998-12-12T12:00:00</AssgnDate>
+      <AxisName>FLIR_Brightness</AxisName>
+      <AssgnDate>2025-05-05T17:59:16.4518468+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
@@ -673,9 +673,9 @@
           <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimRadarCursorZero</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -788,9 +788,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimSlapSwitch</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>314</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1220,9 +1220,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>AFResetTrim</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1436,14 +1436,14 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimRadarAAModeStep</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimRadarAGModeStep</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -4086,9 +4086,9 @@
             <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimRadarCursorZero</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4201,9 +4201,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimSlapSwitch</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>314</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4633,9 +4633,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>AFResetTrim</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4849,14 +4849,14 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimRadarAAModeStep</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimRadarAGModeStep</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>

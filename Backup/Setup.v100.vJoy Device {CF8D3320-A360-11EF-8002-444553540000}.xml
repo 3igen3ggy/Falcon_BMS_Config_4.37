@@ -505,7 +505,7 @@
           <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimWheelBrakes</Callback>
+          <Callback>SimNextAGWeapon</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -836,9 +836,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>AFResetTrim</Callback>
+          <Callback>SimDoNothing</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>-1</SoundID>
+          <SoundID>0</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -3918,7 +3918,7 @@
             <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimWheelBrakes</Callback>
+            <Callback>SimNextAGWeapon</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4249,9 +4249,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>AFResetTrim</Callback>
+            <Callback>SimDoNothing</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>-1</SoundID>
+            <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
