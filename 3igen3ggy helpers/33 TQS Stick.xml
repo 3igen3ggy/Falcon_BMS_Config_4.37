@@ -231,7 +231,7 @@
                                 <mapping type="cubic-spline">
                                     <control-point x="-1.0" y="-1.0"/>
                                     <control-point x="1.0" y="1.0"/>
-                                    <control-point x="0" y="0"/>
+                                    <control-point x="0.0" y="0.0"/>
                                     <control-point x="0.7" y="0.4"/>
                                     <control-point x="-0.7" y="-0.4"/>
                                 </mapping>
@@ -376,7 +376,7 @@
                 <button description="" id="16">
                     <container type="basic">
                         <action-set>
-                            <temporary-mode-switch name="Yaw"/>
+                            <switch-mode name="Yaw"/>
                         </action-set>
                     </container>
                 </button>
@@ -726,7 +726,7 @@
                                 <mapping type="cubic-spline">
                                     <control-point x="-1.0" y="-1.0"/>
                                     <control-point x="1.0" y="1.0"/>
-                                    <control-point x="0" y="0"/>
+                                    <control-point x="0.0" y="0.0"/>
                                     <control-point x="0.7" y="0.4"/>
                                     <control-point x="-0.7" y="-0.4"/>
                                 </mapping>
@@ -743,7 +743,7 @@
                                 <mapping type="cubic-spline">
                                     <control-point x="-1.0" y="-1.0"/>
                                     <control-point x="1.0" y="1.0"/>
-                                    <control-point x="0" y="0"/>
+                                    <control-point x="0.0" y="0.0"/>
                                     <control-point x="0.7" y="0.4"/>
                                     <control-point x="-0.7" y="-0.4"/>
                                 </mapping>
@@ -771,7 +771,13 @@
                 <button description="" id="13"/>
                 <button description="" id="14"/>
                 <button description="" id="15"/>
-                <button description="" id="16"/>
+                <button description="" id="16">
+                    <container type="basic">
+                        <action-set>
+                            <switch-mode name="Default"/>
+                        </action-set>
+                    </container>
+                </button>
                 <button description="" id="17"/>
                 <button description="" id="18"/>
                 <button description="" id="19"/>
