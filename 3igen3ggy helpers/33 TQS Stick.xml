@@ -458,7 +458,8 @@
                     </container>
                 </button>
                 <button description="" id="28">
-                    <container type="basic">
+                    <container activate-on="press" delay="0.10000000000000003" type="tempo">
+                        <action-set/>
                         <action-set>
                             <remap button="28" vjoy="2"/>
                         </action-set>
@@ -542,7 +543,8 @@
                     </container>
                 </button>
                 <button description="" id="40">
-                    <container type="basic">
+                    <container activate-on="press" delay="0.1" type="tempo">
+                        <action-set/>
                         <action-set>
                             <remap button="40" vjoy="2"/>
                         </action-set>
