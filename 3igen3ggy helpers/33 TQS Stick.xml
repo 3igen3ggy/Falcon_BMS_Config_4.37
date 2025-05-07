@@ -201,7 +201,34 @@
                 <button description="" id="17"/>
                 <button description="" id="18"/>
                 <button description="" id="19"/>
-                <hat description="" id="1"/>
+                <hat description="" id="1">
+                    <container button-count="8" type="hat_buttons">
+                        <action-set>
+                            <remap button="28" vjoy="1"/>
+                        </action-set>
+                        <action-set>
+                            <remap button="29" vjoy="1"/>
+                        </action-set>
+                        <action-set>
+                            <remap button="30" vjoy="1"/>
+                        </action-set>
+                        <action-set>
+                            <remap button="31" vjoy="1"/>
+                        </action-set>
+                        <action-set>
+                            <remap button="32" vjoy="1"/>
+                        </action-set>
+                        <action-set>
+                            <remap button="33" vjoy="1"/>
+                        </action-set>
+                        <action-set>
+                            <remap button="34" vjoy="1"/>
+                        </action-set>
+                        <action-set>
+                            <remap button="35" vjoy="1"/>
+                        </action-set>
+                    </container>
+                </hat>
             </mode>
         </device>
         <device device-guid="{054B3560-28D7-11F0-8002-444553540000}" label="" name="Viper TQS" type="joystick">
@@ -741,16 +768,6 @@
                     <container type="basic">
                         <action-set>
                             <remap axis="2" axis-scaling="1.0" axis-type="absolute" vjoy="3"/>
-                            <response-curve>
-                                <mapping type="cubic-spline">
-                                    <control-point x="-1.0" y="-1.0"/>
-                                    <control-point x="1.0" y="1.0"/>
-                                    <control-point x="0.0" y="0.0"/>
-                                    <control-point x="0.7" y="0.4"/>
-                                    <control-point x="-0.7" y="-0.4"/>
-                                </mapping>
-                                <deadzone center-high="0.1" center-low="-0.1" high="1.0" low="-1.0"/>
-                            </response-curve>
                         </action-set>
                     </container>
                 </axis>
