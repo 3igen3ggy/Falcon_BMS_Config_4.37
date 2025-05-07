@@ -500,7 +500,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>OTWSelect3DCockpitMode</Callback>
+          <Callback>FOVToggle</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -692,7 +692,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>FOVToggle</Callback>
+          <Callback>OTWSelectEFOVPadlockMode</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -716,7 +716,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>OTWSelectEFOVPadlockMode</Callback>
+          <Callback>OTWSelect3DCockpitMode</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -3913,7 +3913,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWSelect3DCockpitMode</Callback>
+            <Callback>FOVToggle</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4105,7 +4105,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>FOVToggle</Callback>
+            <Callback>OTWSelectEFOVPadlockMode</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4129,7 +4129,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWSelectEFOVPadlockMode</Callback>
+            <Callback>OTWSelect3DCockpitMode</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
