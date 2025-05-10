@@ -7,17 +7,17 @@
   <axis>
     <AxAssgn>
       <AxisName>Cursor_X</AxisName>
-      <AssgnDate>2025-05-05T18:17:32.9696604+02:00</AssgnDate>
+      <AssgnDate>2025-05-10T14:28:47.4677842+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
-      <Deadzone>Large</Deadzone>
+      <Deadzone>Small</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Cursor_Y</AxisName>
-      <AssgnDate>2025-05-05T18:17:35.6889521+02:00</AssgnDate>
+      <AssgnDate>2025-05-10T14:28:51.1201643+02:00</AssgnDate>
       <Invert>true</Invert>
       <Saturation>None</Saturation>
-      <Deadzone>Large</Deadzone>
+      <Deadzone>Small</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Throttle</AxisName>
