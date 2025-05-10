@@ -67,7 +67,7 @@
       <direction>
         <DirAssgn>
           <Callback>
-            <string>AFElevatorTrimUp</string>
+            <string>OTWSelect3DCockpitMode</string>
             <string>SimDoNothing</string>
           </Callback>
           <SoundID>
@@ -87,27 +87,7 @@
         </DirAssgn>
         <DirAssgn>
           <Callback>
-            <string>SimDoNothing</string>
-            <string>SimDoNothing</string>
-          </Callback>
-          <SoundID>
-            <int>0</int>
-            <int>0</int>
-          </SoundID>
-        </DirAssgn>
-        <DirAssgn>
-          <Callback>
-            <string>SimDoNothing</string>
-            <string>SimDoNothing</string>
-          </Callback>
-          <SoundID>
-            <int>0</int>
-            <int>0</int>
-          </SoundID>
-        </DirAssgn>
-        <DirAssgn>
-          <Callback>
-            <string>AFElevatorTrimDown</string>
+            <string>OTWSelectF3PadlockMode</string>
             <string>SimDoNothing</string>
           </Callback>
           <SoundID>
@@ -127,11 +107,31 @@
         </DirAssgn>
         <DirAssgn>
           <Callback>
-            <string>AFAileronTrimLeft</string>
+            <string>FOVToggle</string>
+            <string>SimDoNothing</string>
+          </Callback>
+          <SoundID>
+            <int>-1</int>
+            <int>0</int>
+          </SoundID>
+        </DirAssgn>
+        <DirAssgn>
+          <Callback>
+            <string>SimDoNothing</string>
             <string>SimDoNothing</string>
           </Callback>
           <SoundID>
             <int>0</int>
+            <int>0</int>
+          </SoundID>
+        </DirAssgn>
+        <DirAssgn>
+          <Callback>
+            <string>OTWSelectEFOVPadlockMode</string>
+            <string>SimDoNothing</string>
+          </Callback>
+          <SoundID>
+            <int>-1</int>
             <int>0</int>
           </SoundID>
         </DirAssgn>
@@ -3480,7 +3480,7 @@
         <direction>
           <DirAssgn>
             <Callback>
-              <string>AFElevatorTrimUp</string>
+              <string>OTWSelect3DCockpitMode</string>
               <string>SimDoNothing</string>
             </Callback>
             <SoundID>
@@ -3500,27 +3500,7 @@
           </DirAssgn>
           <DirAssgn>
             <Callback>
-              <string>SimDoNothing</string>
-              <string>SimDoNothing</string>
-            </Callback>
-            <SoundID>
-              <int>0</int>
-              <int>0</int>
-            </SoundID>
-          </DirAssgn>
-          <DirAssgn>
-            <Callback>
-              <string>SimDoNothing</string>
-              <string>SimDoNothing</string>
-            </Callback>
-            <SoundID>
-              <int>0</int>
-              <int>0</int>
-            </SoundID>
-          </DirAssgn>
-          <DirAssgn>
-            <Callback>
-              <string>AFElevatorTrimDown</string>
+              <string>OTWSelectF3PadlockMode</string>
               <string>SimDoNothing</string>
             </Callback>
             <SoundID>
@@ -3540,11 +3520,31 @@
           </DirAssgn>
           <DirAssgn>
             <Callback>
-              <string>AFAileronTrimLeft</string>
+              <string>FOVToggle</string>
+              <string>SimDoNothing</string>
+            </Callback>
+            <SoundID>
+              <int>-1</int>
+              <int>0</int>
+            </SoundID>
+          </DirAssgn>
+          <DirAssgn>
+            <Callback>
+              <string>SimDoNothing</string>
               <string>SimDoNothing</string>
             </Callback>
             <SoundID>
               <int>0</int>
+              <int>0</int>
+            </SoundID>
+          </DirAssgn>
+          <DirAssgn>
+            <Callback>
+              <string>OTWSelectEFOVPadlockMode</string>
+              <string>SimDoNothing</string>
+            </Callback>
+            <SoundID>
+              <int>-1</int>
               <int>0</int>
             </SoundID>
           </DirAssgn>
