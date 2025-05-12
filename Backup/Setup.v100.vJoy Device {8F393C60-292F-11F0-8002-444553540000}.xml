@@ -6,11 +6,11 @@
   </detentPosition>
   <axis>
     <AxAssgn>
-      <AxisName>Yaw</AxisName>
-      <AssgnDate>2025-05-06T20:41:35.4783377+02:00</AssgnDate>
+      <AxisName />
+      <AssgnDate>1998-12-12T12:00:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
-      <Deadzone>Large</Deadzone>
+      <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>FOV</AxisName>
