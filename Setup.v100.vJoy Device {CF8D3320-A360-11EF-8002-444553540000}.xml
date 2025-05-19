@@ -908,7 +908,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>OTWSelectF3PadlockMode</Callback>
+          <Callback>OTWStepNextPadlock</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -1004,7 +1004,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>OTWSelectEFOVPadlockMode</Callback>
+          <Callback>OTWStepPrevPadlock</Callback>
           <Invoke>Default</Invoke>
           <SoundID>-1</SoundID>
         </Assgn>
@@ -4321,7 +4321,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWSelectF3PadlockMode</Callback>
+            <Callback>OTWStepNextPadlock</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -4417,7 +4417,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWSelectEFOVPadlockMode</Callback>
+            <Callback>OTWStepPrevPadlock</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
