@@ -284,3 +284,7 @@ AXIS_THROTTLE = SLIDER0
 # vJoy Device
 #GUID = {BEAD1234-0000-0000-0000-504944564944}
 # Now please add the axismappings for this controller here and REMOVE the '#' before the GUID inr order to activate them ! You may remove this line then.
+
+# vJoy Device
+#GUID = {BEAD1234-0000-0000-0000-504944564944}
+# Now please add the axismappings for this controller here and REMOVE the '#' before the GUID inr order to activate them ! You may remove this line then.
