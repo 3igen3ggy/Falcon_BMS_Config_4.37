@@ -406,7 +406,7 @@
         <Assgn>
           <Callback>SimTriggerFirstDetent</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -3819,7 +3819,7 @@
           <Assgn>
             <Callback>SimTriggerFirstDetent</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
