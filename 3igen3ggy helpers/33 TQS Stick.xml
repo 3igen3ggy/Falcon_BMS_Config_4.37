@@ -266,7 +266,7 @@
                 <axis description="" id="1">
                     <container type="basic">
                         <action-set>
-                            <remap axis="1" axis-scaling="1.0" axis-type="absolute" vjoy="3"/>
+                            <remap axis="3" axis-scaling="1.0" axis-type="absolute" vjoy="1"/>
                             <response-curve>
                                 <mapping type="cubic-spline">
                                     <control-point x="-1.0" y="-1.0"/>
