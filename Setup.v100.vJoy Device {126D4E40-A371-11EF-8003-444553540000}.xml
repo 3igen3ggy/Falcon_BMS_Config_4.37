@@ -14,7 +14,7 @@
     </AxAssgn>
     <AxAssgn>
       <AxisName>Cursor_Y</AxisName>
-      <AssgnDate>2025-05-10T14:28:51.1201643+02:00</AssgnDate>
+      <AssgnDate>2025-05-27T21:05:23.3023842+02:00</AssgnDate>
       <Invert>true</Invert>
       <Saturation>None</Saturation>
       <Deadzone>Small</Deadzone>
@@ -28,21 +28,21 @@
     </AxAssgn>
     <AxAssgn>
       <AxisName>Range_Knob</AxisName>
-      <AssgnDate>2025-05-05T17:20:16.2273905+02:00</AssgnDate>
+      <AssgnDate>2025-05-27T21:05:21.0559791+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Radar_Antenna_Elevation</AxisName>
-      <AssgnDate>2025-05-17T22:09:12.5129353+02:00</AssgnDate>
+      <AssgnDate>2025-05-27T21:05:18.8614659+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
-      <AxisName>FLIR_Brightness</AxisName>
-      <AssgnDate>2025-05-05T17:59:16.4518468+02:00</AssgnDate>
+      <AxisName>HUD_Brightness</AxisName>
+      <AssgnDate>2025-05-27T21:05:02.4829761+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
@@ -644,14 +644,14 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimRadarAzimuthScanChange</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimRadarBarScanChange</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -4057,14 +4057,14 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimRadarAzimuthScanChange</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimRadarBarScanChange</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
