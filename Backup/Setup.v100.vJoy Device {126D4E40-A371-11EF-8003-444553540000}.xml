@@ -7,14 +7,14 @@
   <axis>
     <AxAssgn>
       <AxisName>Cursor_X</AxisName>
-      <AssgnDate>2025-05-10T14:28:47.4677842+02:00</AssgnDate>
+      <AssgnDate>2025-06-06T22:26:09.1980072+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>Small</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Cursor_Y</AxisName>
-      <AssgnDate>2025-05-27T21:05:23.3023842+02:00</AssgnDate>
+      <AssgnDate>2025-06-06T22:26:34.5164802+02:00</AssgnDate>
       <Invert>true</Invert>
       <Saturation>None</Saturation>
       <Deadzone>Small</Deadzone>
@@ -35,7 +35,7 @@
     </AxAssgn>
     <AxAssgn>
       <AxisName>Radar_Antenna_Elevation</AxisName>
-      <AssgnDate>2025-05-27T21:05:18.8614659+02:00</AssgnDate>
+      <AssgnDate>2025-06-06T22:26:38.8753627+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
