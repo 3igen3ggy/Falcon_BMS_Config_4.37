@@ -7351,9 +7351,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimF15NoseGearSteering</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -7375,7 +7375,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimF15SelectSRM</Callback>
+            <Callback>SimF15SelectGUN</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -7385,7 +7385,7 @@
             <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimF15SelectGUN</Callback>
+            <Callback>SimF15SelectSRM</Callback>
             <Invoke>Down</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -7409,7 +7409,7 @@
             <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimF15SelectGUN</Callback>
+            <Callback>SimF15SelectSRM</Callback>
             <Invoke>Down</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -7759,9 +7759,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimF15MasterArmSwitchOn</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>310</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -7769,9 +7769,9 @@
             <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
-            <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <Callback>SimF15MasterArmSwitchOff</Callback>
+            <Invoke>Down</Invoke>
+            <SoundID>310</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
