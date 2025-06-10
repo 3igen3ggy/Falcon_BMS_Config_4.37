@@ -428,7 +428,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimPickle</Callback>
+          <Callback>SimDoNothing</Callback>
           <Invoke>Default</Invoke>
           <SoundID>0</SoundID>
         </Assgn>
@@ -3841,7 +3841,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimPickle</Callback>
+            <Callback>SimDoNothing</Callback>
             <Invoke>Default</Invoke>
             <SoundID>0</SoundID>
           </Assgn>
