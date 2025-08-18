@@ -24,34 +24,7 @@
                 <button description="" id="17"/>
                 <button description="" id="18"/>
                 <button description="" id="19"/>
-                <hat description="" id="1">
-                    <container button-count="8" type="hat_buttons">
-                        <action-set>
-                            <remap button="28" vjoy="1"/>
-                        </action-set>
-                        <action-set>
-                            <remap button="29" vjoy="1"/>
-                        </action-set>
-                        <action-set>
-                            <remap button="30" vjoy="1"/>
-                        </action-set>
-                        <action-set>
-                            <remap button="31" vjoy="1"/>
-                        </action-set>
-                        <action-set>
-                            <remap button="32" vjoy="1"/>
-                        </action-set>
-                        <action-set>
-                            <remap button="33" vjoy="1"/>
-                        </action-set>
-                        <action-set>
-                            <remap button="34" vjoy="1"/>
-                        </action-set>
-                        <action-set>
-                            <remap button="35" vjoy="1"/>
-                        </action-set>
-                    </container>
-                </hat>
+                <hat description="" id="1"/>
             </mode>
             <mode name="Default">
                 <axis description="" id="1">
@@ -331,7 +304,13 @@
                 <button description="" id="13"/>
                 <button description="" id="14"/>
                 <button description="" id="15"/>
-                <button description="" id="16"/>
+                <button description="" id="16">
+                    <container type="basic">
+                        <action-set>
+                            <switch-mode name="Default"/>
+                        </action-set>
+                    </container>
+                </button>
                 <button description="" id="17"/>
                 <button description="" id="18"/>
                 <button description="" id="19"/>
@@ -564,7 +543,7 @@
                 <button description="" id="16">
                     <container type="basic">
                         <action-set>
-                            <temporary-mode-switch name="Alt"/>
+                            <switch-mode name="Alt"/>
                         </action-set>
                     </container>
                 </button>

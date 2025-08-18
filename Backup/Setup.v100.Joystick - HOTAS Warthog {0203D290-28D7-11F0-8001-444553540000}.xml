@@ -67,7 +67,27 @@
       <direction>
         <DirAssgn>
           <Callback>
+            <string>SimDoNothing</string>
             <string>AFElevatorTrimUp</string>
+          </Callback>
+          <SoundID>
+            <int>0</int>
+            <int>-1</int>
+          </SoundID>
+        </DirAssgn>
+        <DirAssgn>
+          <Callback>
+            <string>SimDoNothing</string>
+            <string>SimDoNothing</string>
+          </Callback>
+          <SoundID>
+            <int>0</int>
+            <int>0</int>
+          </SoundID>
+        </DirAssgn>
+        <DirAssgn>
+          <Callback>
+            <string>SimDoNothing</string>
             <string>SimDoNothing</string>
           </Callback>
           <SoundID>
@@ -87,32 +107,12 @@
         </DirAssgn>
         <DirAssgn>
           <Callback>
-            <string>AFAileronTrimRight</string>
             <string>SimDoNothing</string>
-          </Callback>
-          <SoundID>
-            <int>0</int>
-            <int>0</int>
-          </SoundID>
-        </DirAssgn>
-        <DirAssgn>
-          <Callback>
-            <string>SimDoNothing</string>
-            <string>SimDoNothing</string>
-          </Callback>
-          <SoundID>
-            <int>0</int>
-            <int>0</int>
-          </SoundID>
-        </DirAssgn>
-        <DirAssgn>
-          <Callback>
             <string>AFElevatorTrimDown</string>
-            <string>SimDoNothing</string>
           </Callback>
           <SoundID>
             <int>0</int>
-            <int>0</int>
+            <int>-1</int>
           </SoundID>
         </DirAssgn>
         <DirAssgn>
@@ -127,12 +127,12 @@
         </DirAssgn>
         <DirAssgn>
           <Callback>
+            <string>SimDoNothing</string>
             <string>AFAileronTrimLeft</string>
-            <string>SimDoNothing</string>
           </Callback>
           <SoundID>
             <int>0</int>
-            <int>0</int>
+            <int>-1</int>
           </SoundID>
         </DirAssgn>
         <DirAssgn>
@@ -3480,7 +3480,27 @@
         <direction>
           <DirAssgn>
             <Callback>
+              <string>SimDoNothing</string>
               <string>AFElevatorTrimUp</string>
+            </Callback>
+            <SoundID>
+              <int>0</int>
+              <int>-1</int>
+            </SoundID>
+          </DirAssgn>
+          <DirAssgn>
+            <Callback>
+              <string>SimDoNothing</string>
+              <string>SimDoNothing</string>
+            </Callback>
+            <SoundID>
+              <int>0</int>
+              <int>0</int>
+            </SoundID>
+          </DirAssgn>
+          <DirAssgn>
+            <Callback>
+              <string>SimDoNothing</string>
               <string>SimDoNothing</string>
             </Callback>
             <SoundID>
@@ -3500,32 +3520,12 @@
           </DirAssgn>
           <DirAssgn>
             <Callback>
-              <string>AFAileronTrimRight</string>
               <string>SimDoNothing</string>
-            </Callback>
-            <SoundID>
-              <int>0</int>
-              <int>0</int>
-            </SoundID>
-          </DirAssgn>
-          <DirAssgn>
-            <Callback>
-              <string>SimDoNothing</string>
-              <string>SimDoNothing</string>
-            </Callback>
-            <SoundID>
-              <int>0</int>
-              <int>0</int>
-            </SoundID>
-          </DirAssgn>
-          <DirAssgn>
-            <Callback>
               <string>AFElevatorTrimDown</string>
-              <string>SimDoNothing</string>
             </Callback>
             <SoundID>
               <int>0</int>
-              <int>0</int>
+              <int>-1</int>
             </SoundID>
           </DirAssgn>
           <DirAssgn>
@@ -3540,12 +3540,12 @@
           </DirAssgn>
           <DirAssgn>
             <Callback>
+              <string>SimDoNothing</string>
               <string>AFAileronTrimLeft</string>
-              <string>SimDoNothing</string>
             </Callback>
             <SoundID>
               <int>0</int>
-              <int>0</int>
+              <int>-1</int>
             </SoundID>
           </DirAssgn>
           <DirAssgn>

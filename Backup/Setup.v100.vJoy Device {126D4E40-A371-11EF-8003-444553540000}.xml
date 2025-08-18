@@ -1388,12 +1388,12 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimHsiHdgIncBy1</Callback>
+          <Callback>SimHsiCrsIncBy1</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimHsiCrsIncBy1</Callback>
+          <Callback>SimHsiHdgIncBy1</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
@@ -1412,12 +1412,12 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimHsiHdgDecBy1</Callback>
+          <Callback>SimHsiCrsDecBy1</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimHsiCrsDecBy1</Callback>
+          <Callback>SimHsiHdgDecBy1</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
@@ -4801,12 +4801,12 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimHsiHdgIncBy1</Callback>
+            <Callback>SimHsiCrsIncBy1</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimHsiCrsIncBy1</Callback>
+            <Callback>SimHsiHdgIncBy1</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>
@@ -4825,12 +4825,12 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimHsiHdgDecBy1</Callback>
+            <Callback>SimHsiCrsDecBy1</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimHsiCrsDecBy1</Callback>
+            <Callback>SimHsiHdgDecBy1</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>
