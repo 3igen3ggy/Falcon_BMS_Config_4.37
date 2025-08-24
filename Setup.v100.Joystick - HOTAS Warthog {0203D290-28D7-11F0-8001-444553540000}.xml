@@ -107,11 +107,11 @@
         </DirAssgn>
         <DirAssgn>
           <Callback>
-            <string>SimDoNothing</string>
+            <string>FOVToggle</string>
             <string>AFElevatorTrimDown</string>
           </Callback>
           <SoundID>
-            <int>0</int>
+            <int>-1</int>
             <int>-1</int>
           </SoundID>
         </DirAssgn>
@@ -3520,11 +3520,11 @@
           </DirAssgn>
           <DirAssgn>
             <Callback>
-              <string>SimDoNothing</string>
+              <string>FOVToggle</string>
               <string>AFElevatorTrimDown</string>
             </Callback>
             <SoundID>
-              <int>0</int>
+              <int>-1</int>
               <int>-1</int>
             </SoundID>
           </DirAssgn>
