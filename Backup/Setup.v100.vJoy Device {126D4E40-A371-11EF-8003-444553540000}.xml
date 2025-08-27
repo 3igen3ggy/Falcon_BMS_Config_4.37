@@ -1196,7 +1196,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRWRSetSearch</Callback>
+          <Callback>SimRWRHandoff</Callback>
           <Invoke>Default</Invoke>
           <SoundID>318</SoundID>
         </Assgn>
@@ -1244,7 +1244,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRWRSetGroundPriority</Callback>
+          <Callback>SimRWRSetUnknowns</Callback>
           <Invoke>Default</Invoke>
           <SoundID>318</SoundID>
         </Assgn>
@@ -1268,7 +1268,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRwrPower</Callback>
+          <Callback>SimRWRSetTargetSep</Callback>
           <Invoke>Default</Invoke>
           <SoundID>318</SoundID>
         </Assgn>
@@ -1393,7 +1393,7 @@
           <SoundID>116</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimHsiHdgIncBy1</Callback>
+          <Callback>SimAltPressIncBy1</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
@@ -1417,7 +1417,7 @@
           <SoundID>116</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimHsiHdgDecBy1</Callback>
+          <Callback>SimAltPressDecBy1</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
@@ -1556,9 +1556,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimEWSJammerOn</Callback>
+          <Callback>SimXMit1</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>115</SoundID>
+          <SoundID>310</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1566,9 +1566,9 @@
           <SoundID>0</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimEWSJammerOff</Callback>
+          <Callback>SimXMit2</Callback>
           <Invoke>Down</Invoke>
-          <SoundID>115</SoundID>
+          <SoundID>310</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1940,7 +1940,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimAltPressIncBy1</Callback>
+          <Callback>SimHsiHdgIncBy1</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
@@ -1964,7 +1964,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimAltPressDecBy1</Callback>
+          <Callback>SimHsiHdgDecBy1</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
@@ -4609,7 +4609,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRWRSetSearch</Callback>
+            <Callback>SimRWRHandoff</Callback>
             <Invoke>Default</Invoke>
             <SoundID>318</SoundID>
           </Assgn>
@@ -4657,7 +4657,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRWRSetGroundPriority</Callback>
+            <Callback>SimRWRSetUnknowns</Callback>
             <Invoke>Default</Invoke>
             <SoundID>318</SoundID>
           </Assgn>
@@ -4681,7 +4681,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRwrPower</Callback>
+            <Callback>SimRWRSetTargetSep</Callback>
             <Invoke>Default</Invoke>
             <SoundID>318</SoundID>
           </Assgn>
@@ -4806,7 +4806,7 @@
             <SoundID>116</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimHsiHdgIncBy1</Callback>
+            <Callback>SimAltPressIncBy1</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>
@@ -4830,7 +4830,7 @@
             <SoundID>116</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimHsiHdgDecBy1</Callback>
+            <Callback>SimAltPressDecBy1</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>
@@ -4969,9 +4969,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimEWSJammerOn</Callback>
+            <Callback>SimXMit1</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>115</SoundID>
+            <SoundID>310</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4979,9 +4979,9 @@
             <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimEWSJammerOff</Callback>
+            <Callback>SimXMit2</Callback>
             <Invoke>Down</Invoke>
-            <SoundID>115</SoundID>
+            <SoundID>310</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -5353,7 +5353,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimAltPressIncBy1</Callback>
+            <Callback>SimHsiHdgIncBy1</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>
@@ -5377,7 +5377,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimAltPressDecBy1</Callback>
+            <Callback>SimHsiHdgDecBy1</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>

@@ -776,7 +776,7 @@
                 <button description="" id="49">
                     <container type="basic">
                         <action-set>
-                            <temporary-mode-switch name="Yaw"/>
+                            <remap button="49" vjoy="2"/>
                         </action-set>
                     </container>
                 </button>
