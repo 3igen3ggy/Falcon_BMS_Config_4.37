@@ -20,25 +20,25 @@
       <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
-      <AxisName>Yaw</AxisName>
-      <AssgnDate>2025-08-26T23:07:07.2598208+02:00</AssgnDate>
-      <Invert>true</Invert>
-      <Saturation>None</Saturation>
-      <Deadzone>Small</Deadzone>
-    </AxAssgn>
-    <AxAssgn>
-      <AxisName>Cursor_X</AxisName>
-      <AssgnDate>2025-08-27T16:45:30.0003302+02:00</AssgnDate>
+      <AxisName />
+      <AssgnDate>1998-12-12T12:00:00</AssgnDate>
       <Invert>false</Invert>
-      <Saturation>Large</Saturation>
-      <Deadzone>Large</Deadzone>
+      <Saturation>None</Saturation>
+      <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
-      <AxisName>Cursor_Y</AxisName>
-      <AssgnDate>2025-08-27T16:45:08.4313562+02:00</AssgnDate>
-      <Invert>true</Invert>
-      <Saturation>Large</Saturation>
-      <Deadzone>Large</Deadzone>
+      <AxisName />
+      <AssgnDate>1998-12-12T12:00:00</AssgnDate>
+      <Invert>false</Invert>
+      <Saturation>None</Saturation>
+      <Deadzone>None</Deadzone>
+    </AxAssgn>
+    <AxAssgn>
+      <AxisName />
+      <AssgnDate>1998-12-12T12:00:00</AssgnDate>
+      <Invert>false</Invert>
+      <Saturation>None</Saturation>
+      <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName />
@@ -452,9 +452,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimAPOverride</Callback>
+          <Callback>SimDoNothing</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>-1</SoundID>
+          <SoundID>0</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -3865,9 +3865,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimAPOverride</Callback>
+            <Callback>SimDoNothing</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>-1</SoundID>
+            <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>

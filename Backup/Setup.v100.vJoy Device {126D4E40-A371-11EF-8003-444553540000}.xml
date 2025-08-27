@@ -28,17 +28,17 @@
     </AxAssgn>
     <AxAssgn>
       <AxisName>Cursor_X</AxisName>
-      <AssgnDate>2025-08-26T23:06:40.7247774+02:00</AssgnDate>
+      <AssgnDate>2025-08-27T16:45:30.0003302+02:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>Large</Saturation>
-      <Deadzone>Small</Deadzone>
+      <Deadzone>Large</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Cursor_Y</AxisName>
-      <AssgnDate>2025-08-26T23:06:33.9224126+02:00</AssgnDate>
+      <AssgnDate>2025-08-27T16:45:08.4313562+02:00</AssgnDate>
       <Invert>true</Invert>
       <Saturation>Large</Saturation>
-      <Deadzone>Small</Deadzone>
+      <Deadzone>Large</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName />
@@ -452,9 +452,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimDoNothing</Callback>
+          <Callback>SimAPOverride</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>0</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -3865,9 +3865,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimAPOverride</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
