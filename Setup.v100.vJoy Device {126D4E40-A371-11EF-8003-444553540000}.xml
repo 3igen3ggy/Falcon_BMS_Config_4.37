@@ -1316,9 +1316,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimHSITcn</Callback>
+          <Callback>SimExtlMasterCovertAll</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>125</SoundID>
+          <SoundID>116</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1326,9 +1326,9 @@
           <SoundID>0</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimHSIIlsTcn</Callback>
+          <Callback>SimExtlMasterOff</Callback>
           <Invoke>Down</Invoke>
-          <SoundID>125</SoundID>
+          <SoundID>116</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1340,9 +1340,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimHSINav</Callback>
+          <Callback>SimExtlMasterCovertAC</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>125</SoundID>
+          <SoundID>116</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1364,9 +1364,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimHSIIlsNav</Callback>
+          <Callback>SimExtlMasterCovertForm</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>125</SoundID>
+          <SoundID>116</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1436,14 +1436,14 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRadarAAModeStep</Callback>
+          <Callback>SimStepHSIMode</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>-1</SoundID>
+          <SoundID>125</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimRadarAGModeStep</Callback>
+          <Callback>SimDoNothing</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>-1</SoundID>
+          <SoundID>0</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -4729,9 +4729,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimHSITcn</Callback>
+            <Callback>SimExtlMasterCovertAll</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>125</SoundID>
+            <SoundID>116</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4739,9 +4739,9 @@
             <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimHSIIlsTcn</Callback>
+            <Callback>SimExtlMasterOff</Callback>
             <Invoke>Down</Invoke>
-            <SoundID>125</SoundID>
+            <SoundID>116</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4753,9 +4753,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimHSINav</Callback>
+            <Callback>SimExtlMasterCovertAC</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>125</SoundID>
+            <SoundID>116</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4777,9 +4777,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimHSIIlsNav</Callback>
+            <Callback>SimExtlMasterCovertForm</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>125</SoundID>
+            <SoundID>116</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4849,14 +4849,14 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRadarAAModeStep</Callback>
+            <Callback>SimStepHSIMode</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>-1</SoundID>
+            <SoundID>125</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimRadarAGModeStep</Callback>
+            <Callback>SimDoNothing</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>-1</SoundID>
+            <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
