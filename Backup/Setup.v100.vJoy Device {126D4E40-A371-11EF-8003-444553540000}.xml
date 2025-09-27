@@ -1340,7 +1340,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimExtlMasterCovertAC</Callback>
+          <Callback>SimExtlMasterCovertForm</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
@@ -1364,7 +1364,7 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimExtlMasterCovertForm</Callback>
+          <Callback>SimExtlMasterNorm</Callback>
           <Invoke>Default</Invoke>
           <SoundID>116</SoundID>
         </Assgn>
@@ -4753,7 +4753,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimExtlMasterCovertAC</Callback>
+            <Callback>SimExtlMasterCovertForm</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>
@@ -4777,7 +4777,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimExtlMasterCovertForm</Callback>
+            <Callback>SimExtlMasterNorm</Callback>
             <Invoke>Default</Invoke>
             <SoundID>116</SoundID>
           </Assgn>
