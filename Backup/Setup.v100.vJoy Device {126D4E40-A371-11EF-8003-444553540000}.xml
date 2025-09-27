@@ -1196,9 +1196,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRWRHandoff</Callback>
+          <Callback>AFResetTrim</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>318</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1220,9 +1220,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>AFResetTrim</Callback>
+          <Callback>SimRWRHandoff</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>-1</SoundID>
+          <SoundID>318</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -4609,9 +4609,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRWRHandoff</Callback>
+            <Callback>AFResetTrim</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>318</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4633,9 +4633,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>AFResetTrim</Callback>
+            <Callback>SimRWRHandoff</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>-1</SoundID>
+            <SoundID>318</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
