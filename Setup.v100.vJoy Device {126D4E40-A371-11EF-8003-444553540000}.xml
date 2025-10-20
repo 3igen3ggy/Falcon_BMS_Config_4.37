@@ -7231,7 +7231,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWViewLeft</Callback>
+            <Callback>OTWStepPrevPadlock</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -7255,7 +7255,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWViewUp</Callback>
+            <Callback>FOVToggle</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -7279,7 +7279,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWViewRight</Callback>
+            <Callback>OTWStepNextPadlock</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -7303,7 +7303,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>OTWViewDown</Callback>
+            <Callback>OTWSelect3DCockpitMode</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
