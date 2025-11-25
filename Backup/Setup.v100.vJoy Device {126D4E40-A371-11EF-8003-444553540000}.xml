@@ -1244,9 +1244,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRWRSetUnknowns</Callback>
+          <Callback>SimNextAGWeapon</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>318</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -4657,9 +4657,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRWRSetUnknowns</Callback>
+            <Callback>SimNextAGWeapon</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>318</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -7351,7 +7351,7 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimF15NoseGearSteering</Callback>
+            <Callback>SimF15BoatSwitchFWD</Callback>
             <Invoke>Default</Invoke>
             <SoundID>-1</SoundID>
           </Assgn>
@@ -8815,9 +8815,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimDoNothing</Callback>
+            <Callback>SimF15BoatSwitchAFT</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>0</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
