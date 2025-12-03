@@ -239,13 +239,7 @@
                 <axis description="" id="1"/>
                 <axis description="" id="2"/>
                 <axis description="" id="3"/>
-                <axis description="" id="4">
-                    <container type="basic">
-                        <action-set>
-                            <remap axis="1" axis-scaling="1.0" axis-type="absolute" vjoy="3"/>
-                        </action-set>
-                    </container>
-                </axis>
+                <axis description="" id="4"/>
                 <axis description="" id="5"/>
                 <axis description="" id="6">
                     <container type="basic">
@@ -361,16 +355,6 @@
                     <container type="basic">
                         <action-set>
                             <remap axis="1" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
-                            <response-curve>
-                                <mapping type="cubic-spline">
-                                    <control-point x="-1.0" y="-1.0"/>
-                                    <control-point x="1.0" y="1.0"/>
-                                    <control-point x="0.0" y="0.0"/>
-                                    <control-point x="0.7" y="0.4"/>
-                                    <control-point x="-0.7" y="-0.4"/>
-                                </mapping>
-                                <deadzone center-high="0.1" center-low="-0.1" high="1.0" low="-1.0"/>
-                            </response-curve>
                         </action-set>
                     </container>
                 </axis>
@@ -378,16 +362,6 @@
                     <container type="basic">
                         <action-set>
                             <remap axis="2" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
-                            <response-curve>
-                                <mapping type="cubic-spline">
-                                    <control-point x="-1.0" y="-1.0"/>
-                                    <control-point x="1.0" y="1.0"/>
-                                    <control-point x="0.0" y="0.0"/>
-                                    <control-point x="0.7" y="0.4"/>
-                                    <control-point x="-0.7" y="-0.4"/>
-                                </mapping>
-                                <deadzone center-high="0.1" center-low="-0.1" high="1.0" low="-1.0"/>
-                            </response-curve>
                         </action-set>
                     </container>
                 </axis>
@@ -415,6 +389,13 @@
                 <axis description="" id="6">
                     <container type="basic">
                         <action-set>
+                            <response-curve>
+                                <mapping type="cubic-spline">
+                                    <control-point x="-1.0" y="0.0"/>
+                                    <control-point x="1.0" y="1.0"/>
+                                </mapping>
+                                <deadzone center-high="0.0" center-low="0.0" high="1.0" low="-1.0"/>
+                            </response-curve>
                             <remap axis="6" axis-scaling="1.0" axis-type="absolute" vjoy="2"/>
                         </action-set>
                     </container>
