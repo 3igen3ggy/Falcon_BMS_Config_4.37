@@ -6,22 +6,22 @@
   </detentPosition>
   <axis>
     <AxAssgn>
-      <AxisName>Cursor_Y</AxisName>
-      <AssgnDate>2025-12-03T18:04:27.0520717+01:00</AssgnDate>
-      <Invert>true</Invert>
+      <AxisName>Cursor_X</AxisName>
+      <AssgnDate>2025-12-03T22:26:16.3178912+01:00</AssgnDate>
+      <Invert>false</Invert>
       <Saturation>None</Saturation>
-      <Deadzone>Small</Deadzone>
+      <Deadzone>None</Deadzone>
     </AxAssgn>
     <AxAssgn>
-      <AxisName>Cursor_X</AxisName>
-      <AssgnDate>2025-12-03T18:04:19.1677384+01:00</AssgnDate>
+      <AxisName>Cursor_Y</AxisName>
+      <AssgnDate>2025-12-03T22:26:32.8450623+01:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>Small</Deadzone>
     </AxAssgn>
     <AxAssgn>
       <AxisName>Throttle</AxisName>
-      <AssgnDate>2025-12-03T18:04:47.3595149+01:00</AssgnDate>
+      <AssgnDate>2025-12-09T21:53:18.5450767+01:00</AssgnDate>
       <Invert>false</Invert>
       <Saturation>None</Saturation>
       <Deadzone>None</Deadzone>
