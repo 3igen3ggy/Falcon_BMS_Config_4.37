@@ -673,9 +673,9 @@
           <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
-          <Callback>SimRadarCursorZero</Callback>
+          <Callback>SimDoNothing</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>-1</SoundID>
+          <SoundID>0</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -1220,9 +1220,9 @@
     <DxAssgn>
       <assign>
         <Assgn>
-          <Callback>SimRWRSetTargetSep</Callback>
+          <Callback>SimRadarCursorZero</Callback>
           <Invoke>Default</Invoke>
-          <SoundID>318</SoundID>
+          <SoundID>-1</SoundID>
         </Assgn>
         <Assgn>
           <Callback>SimDoNothing</Callback>
@@ -4086,9 +4086,9 @@
             <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
-            <Callback>SimRadarCursorZero</Callback>
+            <Callback>SimDoNothing</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>-1</SoundID>
+            <SoundID>0</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
@@ -4633,9 +4633,9 @@
       <DxAssgn>
         <assign>
           <Assgn>
-            <Callback>SimRWRSetTargetSep</Callback>
+            <Callback>SimRadarCursorZero</Callback>
             <Invoke>Default</Invoke>
-            <SoundID>318</SoundID>
+            <SoundID>-1</SoundID>
           </Assgn>
           <Assgn>
             <Callback>SimDoNothing</Callback>
